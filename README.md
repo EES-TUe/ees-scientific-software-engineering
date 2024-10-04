@@ -10,7 +10,7 @@ In a Python environment, in the root of the repository, install it in develop mo
 **NOTE: you need to re-run the following command everytime you add new (optional) dependencies!**
 
 ```shell
-pip install -e .[dev,example]
+pip install -e .[dev]
 ```
 
 After installation, run the test.
@@ -41,7 +41,7 @@ pylint ees_scientific_software_engineering
 The folder structure of the repository is explained as below.
 
 
-* [`src/ees_scientific_software_engineering `](./src/ees_scientific_software_engineering) is the main folder of the package. You should put your new functionality code there.
+* [`src/ees_scientific_software_engineering`](./src/ees_scientific_software_engineering) is the main folder of the package. You should put your new functionality code there.
 * [`tests`](./tests) is the folder containing the test files. You should put your test code there.
 * [`.vscode`](./.vscode) contains the setting file for the IDE VSCode.
 * [`.github/workflows`](./.github/workflows) contains the continuous integration (CI) configurations.

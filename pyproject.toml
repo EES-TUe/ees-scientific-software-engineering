@@ -4,7 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ees-scientific-software-engineering"
-authors = [{name = "TU/e EES group"}]
+authors = [
+  {name = "Tony Xiang",email = "y.xiang@tue.nl"},
+  {name = "Peter Salemink", email = "p.j.salemink@tue.nl"}
+]
 description = "Training project for scientific software engineering"
 readme = "README.md"
 license = {text = "BSD License (BSD)"}
