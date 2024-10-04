@@ -1,6 +1,6 @@
-# power-system-simulation
+# ees-scientific-software-engineering
 
-This is a student project for Power System Simulation.
+This is a training project for Scientific Software Engineering for EES group.
 
 
 ## Installation
@@ -33,7 +33,7 @@ It will return errors if the quality check fails.
 You need to read the errors and make required adjustments.
 
 ```shell
-pylint power_system_simulation 
+pylint ees_scientific_software_engineering 
 ```
 
 ## Folder structure of the repository
@@ -41,8 +41,7 @@ pylint power_system_simulation
 The folder structure of the repository is explained as below.
 
 
-* [`src/power_system_simulation`](./src/power_system_simulation) is the main folder of the package. You should put your new functionality code there.
+* [`src/ees_scientific_software_engineering `](./src/ees_scientific_software_engineering) is the main folder of the package. You should put your new functionality code there.
 * [`tests`](./tests) is the folder containing the test files. You should put your test code there.
-* [`example`](./example) contains the example notebook. You should modify the notebook for your presentation.
 * [`.vscode`](./.vscode) contains the setting file for the IDE VSCode.
 * [`.github/workflows`](./.github/workflows) contains the continuous integration (CI) configurations.

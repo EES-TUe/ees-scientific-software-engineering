@@ -3,9 +3,9 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "power-system-simulation"
+name = "ees-scientific-software-engineering"
 authors = [{name = "TU/e EES group"}]
-description = "Student project for power system simulation"
+description = "Training project for scientific software engineering"
 readme = "README.md"
 license = {text = "BSD License (BSD)"}
 classifiers = [
@@ -18,6 +18,8 @@ dependencies = []
 version = "0.1"
 
 [project.optional-dependencies]
+
+# dependencies for development
 dev = [
   'pytest',
   'black',
@@ -26,18 +28,13 @@ dev = [
   'pytest-cov'
 ]
 
-# add more dependencies for running the examples
-example = [
-  'jupyter'
-]
-
 [tool.setuptools.packages.find]
 where = ["src"] 
 namespaces = false 
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = ["--cov=power_system_simulation", "--cov-report", "term", "--cov-report", "html:python_cov_html", "--cov-fail-under=95"]
+addopts = ["--cov=ees_scientific_software_engineering", "--cov-report", "term", "--cov-report", "html:python_cov_html", "--cov-fail-under=100"]
 
 [tool.black]
 line-length = 120

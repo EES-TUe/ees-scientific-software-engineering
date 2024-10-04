@@ -1,4 +1,4 @@
-from power_system_simulation.simple_function import add, multiply
+from ees_scientific_software_engineering.simple_function import add, multiply
 
 
 def test_add():

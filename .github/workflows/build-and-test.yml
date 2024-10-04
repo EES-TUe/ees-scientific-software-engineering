@@ -28,7 +28,7 @@ jobs:
         
     - name: Install
       run: |
-        pip install power-system-simulation[dev,example] --find-links=dist
+        pip install ees-scientific-software-engineering[dev,example] --find-links=dist
 
     - name: Test with pytest
       run: |
@@ -38,8 +38,4 @@ jobs:
       run: |
         isort --check .
         black --check .
-        pylint power_system_simulation
-
-    - name: Check notebook
-      run: |
-        jupyter execute example/final_presentation.ipynb
+        pylint ees_scientific_software_engineering 
