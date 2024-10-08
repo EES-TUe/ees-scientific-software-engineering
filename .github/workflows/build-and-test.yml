@@ -42,4 +42,4 @@ jobs:
     - name: Check code quality
       run: |
         pylint ees_scientific_software_engineering 
-        mypy .
+        mypy src/ees_scientific_software_engineering
