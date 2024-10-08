@@ -36,6 +36,9 @@ dev = [
 where = ["src"] 
 namespaces = false 
 
+[tool.setuptools.package-data]
+"ees_scientific_software_engineering" = ["py.typed"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = ["--cov=ees_scientific_software_engineering", "--cov-report", "term", "--cov-report", "html:python_cov_html", "--cov-fail-under=100"]
