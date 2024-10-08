@@ -28,7 +28,8 @@ dev = [
   'black',
   'isort',
   'pylint',
-  'pytest-cov'
+  'pytest-cov',
+  'mypy'
 ]
 
 [tool.setuptools.packages.find]
@@ -56,3 +57,10 @@ max-line-length = 120
 # Minimum Python version to use for version dependent checks. Will default to the
 # version used to run pylint.
 py-version = "3.12"
+
+[tool.mypy]
+follow_imports = "silent"
+ignore_missing_imports = true
+show_column_numbers = true
+non_interactive = true
+install_types = true

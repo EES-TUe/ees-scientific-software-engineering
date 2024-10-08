@@ -34,8 +34,12 @@ jobs:
       run: |
         pytest
 
-    - name: Check the format
+    - name: Check code format
       run: |
         isort --check .
         black --check .
+
+    - name: Check code quality
+      run: |
         pylint ees_scientific_software_engineering 
+        mypy .
