@@ -28,7 +28,7 @@ jobs:
         
     - name: Install
       run: |
-        pip install ees-scientific-software-engineering[dev,example] --find-links=dist
+        pip install ees-scientific-software-engineering[dev] --find-links=dist
 
     - name: Test with pytest
       run: |
