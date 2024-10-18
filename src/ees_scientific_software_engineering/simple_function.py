@@ -13,6 +13,8 @@ def add(a: int, b: int) -> int:
     Returns:
         added number
     """
+    if not isinstance(a, int) or not isinstance(b, int):
+        raise TypeError("Arguments should be integers!")
     return a + b
 
 
