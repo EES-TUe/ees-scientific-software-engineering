@@ -33,7 +33,8 @@ It will return errors if the quality check fails.
 You need to read the errors and make required adjustments.
 
 ```shell
-pylint ees_scientific_software_engineering 
+pylint ees_scientific_software_engineering
+mypy src/ees_scientific_software_engineering
 ```
 
 ## Folder structure of the repository
