@@ -56,6 +56,8 @@ line_length = 120
 # Specify a score threshold under which the program will exit with error.
 fail-under = 10
 max-line-length = 120
+# remove this line when you are asked by the assignment
+disable = "missing-module-docstring,missing-function-docstring"
 
 # Minimum Python version to use for version dependent checks. Will default to the
 # version used to run pylint.
